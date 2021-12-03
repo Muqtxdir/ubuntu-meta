@@ -1,3 +1,9 @@
+ubuntu-meta (1.472ubuntu2) impish; urgency=medium
+
+  * add gnome-tour
+
+ -- Muqtadir <muqtadir5555@gmail.com>  Fri, 03 Dec 2021 18:21:24 +0530
+
 ubuntu-meta (1.472ubuntu1) impish; urgency=medium
 
   * add gnome-shell-extension-just-perfection to list

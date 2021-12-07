@@ -9,8 +9,8 @@ fonts-dejavu-core
 fonts-freefont-ttf
 foomatic-db-compressed-ppds
 gdm3
+genisoimage
 ghostscript-x
-gnome-control-center
 gnome-menus
 gnome-session-canberra
 gnome-settings-daemon
@@ -19,12 +19,12 @@ gnome-shell-extension-appindicator
 gnome-shell-extension-desktop-icons-ng
 gnome-shell-extension-ubuntu-dock
 gnome-shell-extension-just-perfection
-gnome-tour
 gstreamer1.0-alsa
+gstreamer1.0-packagekit
 gstreamer1.0-plugins-base-apps
 gstreamer1.0-pulseaudio
+gvfs-bin
 inputattach
-language-selector-common
 language-selector-gnome
 libatk-adaptor
 libnotify-bin
@@ -37,7 +37,6 @@ pulseaudio
 rfkill
 software-properties-gtk
 spice-vdagent
-ubuntu-drivers-common
 ubuntu-release-upgrader-gtk
 ubuntu-session
 ubuntu-settings

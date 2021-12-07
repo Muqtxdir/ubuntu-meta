@@ -1,7 +1,7 @@
-bind9-dnsutils
 busybox-static
 cpio
 cron
+dnsutils
 dosfstools
 ed
 file
@@ -9,15 +9,17 @@ ftp
 hdparm
 info
 iptables
+language-selector-common
 libpam-systemd
 logrotate
 lshw
 lsof
 ltrace
 man-db
-media-types
+mime-support
 parted
 pciutils
+popularity-contest
 ppc64-diag
 psmisc
 rsync
@@ -25,4 +27,3 @@ strace
 time
 usbutils
 wget
-xz-utils

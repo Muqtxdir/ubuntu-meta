@@ -1,6 +1,7 @@
 adduser
 apt
 apt-utils
+bzip2
 console-setup
 debconf
 debconf-i18n

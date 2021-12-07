@@ -1,264 +1,22 @@
-ubuntu-meta (1.472ubuntu2) impish; urgency=medium
+ubuntu-meta (1.450.3ubuntu1) focal; urgency=medium
 
-  * add gnome-tour
+  * add what-f packages to the list
 
- -- Muqtadir <muqtadir5555@gmail.com>  Fri, 03 Dec 2021 18:21:24 +0530
+ -- Muqtadir <muqtadir5555@gmail.com>  Tue, 07 Dec 2021 15:36:13 +0530
 
-ubuntu-meta (1.472ubuntu1) impish; urgency=medium
+ubuntu-meta (1.450.2) focal; urgency=medium
 
-  * add gnome-shell-extension-just-perfection to list
-  * add fonts-opendyslexic to recommends list
+  * d/control: have ubuntu-server depend on motd-news-config
+    (LP: #1888575)
 
- -- Muqtadir <muqtadir5555@gmail.com>  Mon, 18 Oct 2021 14:02:32 +0530
+ -- Andreas Hasenack <andreas@canonical.com>  Thu, 06 Aug 2020 14:36:39 -0300
 
-ubuntu-meta (1.472) impish; urgency=medium
+ubuntu-meta (1.450.1) focal; urgency=medium
 
-  * Refreshed dependencies
-  * Added dmidecode to standard [riscv64]
-  * Added gnome-initial-setup to desktop-minimal-recommends [riscv64],
-    desktop-recommends [riscv64]
-  * Added language-selector-common to desktop, desktop-minimal, desktop-
-    raspi
-  * Added open-vm-tools to server-raspi-recommends [arm64], server-
-    recommends [arm64]
-  * Added ubuntu-report to desktop-minimal-recommends [riscv64], desktop-
-    recommends [riscv64]
-  * Removed firefox from desktop-minimal-recommends [amd64 arm64 armhf
-    ppc64el s390x], desktop-recommends [amd64 arm64 armhf ppc64el s390x]
-  * Removed language-selector-common from standard
-  * Removed xul-ext-ubufox from desktop-minimal-recommends, desktop-
-    recommends
-
- -- Olivier Tilloy <olivier.tilloy@canonical.com>  Wed, 22 Sep 2021 11:09:00 +0200
-
-ubuntu-meta (1.471) impish; urgency=medium
-
-  * update.cfg, c/control: Add ubuntu-server-minimal metapackage.
-
- -- Michael Hudson-Doyle <michael.hudson@ubuntu.com>  Tue, 27 Jul 2021 16:33:18 +1200
-
-ubuntu-meta (1.470) impish; urgency=medium
-
-  * Switched to impish
-  * Refreshed dependencies
-  * Added wpasupplicant to desktop-raspi
-  * Removed gnome-getting-started-docs from desktop-minimal-recommends,
-    desktop-recommends
-  * Removed wslu from wsl [armhf ppc64el riscv64 s390x]
-
- -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Tue, 08 Jun 2021 17:55:14 +0200
-
-ubuntu-meta (1.469) hirsute; urgency=medium
-
-  * Refreshed dependencies
-  * Added xz-utils to standard
-
- -- Steve Langasek <steve.langasek@ubuntu.com>  Mon, 19 Apr 2021 15:58:13 +0000
-
-ubuntu-meta (1.468) hirsute; urgency=medium
-
-  * Refreshed dependencies
-  * Added media-types to standard
-  * Removed mime-support from standard
-
- -- Steve Langasek <steve.langasek@ubuntu.com>  Fri, 16 Apr 2021 21:52:27 +0000
-
-ubuntu-meta (1.467) hirsute; urgency=medium
-
-  * Refreshed dependencies
-  * Added ubuntu-raspi-settings to server-raspi
-  * Added wpasupplicant to desktop-raspi
-  * Removed ubuntu-wallpapers-groovy-raspi from desktop-raspi-recommends
-
- -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Tue, 13 Apr 2021 18:23:22 +0200
-
-ubuntu-meta (1.466) hirsute; urgency=medium
-
-  * Refreshed dependencies
-  * Added needrestart to server-raspi-recommends, server-recommends LP: #1921546
-  * Moved usrmerge to minimal-recommends
-
- -- Dimitri John Ledkov <xnox@ubuntu.com>  Fri, 26 Mar 2021 19:09:40 +0000
-
-ubuntu-meta (1.465) hirsute; urgency=medium
-
-  * Refreshed dependencies
-  * Added gnome-remote-desktop to desktop-raspi-recommends, desktop-
-    recommends
-  * Removed adcli from desktop-minimal-recommends, desktop-recommends
-  * Removed realmd from desktop-minimal-recommends, desktop-recommends
-  * Removed sssd from desktop-minimal-recommends, desktop-recommends
-  * Removed sssd-tools from desktop-minimal-recommends, desktop-
-    recommends
-
- -- Didier Roche <didrocks@ubuntu.com>  Wed, 10 Mar 2021 14:10:32 +0100
-
-ubuntu-meta (1.464) hirsute; urgency=medium
-
-  * Refreshed dependencies
-  * Added gnome-shell-extension-desktop-icons-ng to desktop, desktop-
-    minimal
-  * Added libpam-fprintd to desktop-minimal-recommends, desktop-
-    recommends
-  * Added libpam-sss to desktop-minimal-recommends, desktop-recommends
-  * Removed gnome-shell-extension-desktop-icons from desktop, desktop-
-    minimal
-  * Removed vino from desktop-raspi-recommends, desktop-recommends
-
- -- Iain Lane <iain.lane@canonical.com>  Thu, 25 Feb 2021 19:46:30 +0000
-
-ubuntu-meta (1.463) hirsute; urgency=medium
-
-  * Refreshed dependencies
-  * Added libraspberrypi-bin to desktop-raspi [arm64 armhf], server-
-    raspi [arm64 armhf]
-  * Added libraspberrypi0 to desktop-raspi [arm64 armhf], server-raspi
-    [arm64 armhf]
-  * Added rpi-eeprom to desktop-raspi [arm64 armhf], server-raspi [arm64
-    armhf]
-  * Added usrmerge to minimal LP: #1906671
-  * Added wpasupplicant to desktop-raspi
-
- -- Dimitri John Ledkov <xnox@ubuntu.com>  Fri, 19 Feb 2021 21:38:48 +0000
-
-ubuntu-meta (1.462) hirsute; urgency=medium
-
-  * Refreshed dependencies
-  * Added wpasupplicant to desktop-raspi
-  * Removed genisoimage from desktop, desktop-minimal, desktop-raspi
-
- -- Dimitri John Ledkov <xnox@ubuntu.com>  Sun, 14 Feb 2021 19:37:38 +0000
-
-ubuntu-meta (1.461) hirsute; urgency=medium
-
-  * Refreshed dependencies
-  * Removed linux-firmware-raspi2 from desktop-raspi [arm64 armhf],
-    server-raspi [arm64 armhf]
-  * Removed pi-bluetooth from desktop-raspi [arm64 armhf], server-raspi
-    [arm64 armhf]
-
- -- Iain Lane <iain.lane@canonical.com>  Mon, 04 Jan 2021 10:30:26 +0000
-
-ubuntu-meta (1.460) hirsute; urgency=medium
-
-  * Refreshed dependencies
-  * Added deja-dup to desktop-raspi-recommends [riscv64], desktop-
-    recommends [riscv64]
-  * Added linux-firmware-raspi2 to desktop-raspi [arm64 armhf], server-
-    raspi [arm64 armhf]
-  * Added pi-bluetooth to desktop-raspi [arm64 armhf], server-raspi
-    [arm64 armhf]
-  * Added ubuntu-drivers-common to desktop [riscv64], desktop-minimal
-    [riscv64], desktop-raspi [riscv64]
-  * Removed at from server, server-raspi
-  * Removed bzip2 from minimal
-  * Packaging changes:
-    - Fix d/changelog issues
-    - d/control:
-      + upgrade to dh compat level 13 via debhelper-compat
-      + upgrade to Standards-Verion 4.5.1 (no changes needed)
-      + set Rules-Requires-Root: no
-
- -- Paride Legovini <paride.legovini@canonical.com>  Fri, 27 Nov 2020 12:09:27 +0100
-
-ubuntu-meta (1.459) groovy; urgency=medium
-
-  * Refreshed dependencies
-  * Added ubuntu-wallpapers-groovy-raspi to desktop-raspi-recommends
-
- -- Iain Lane <iain.lane@canonical.com>  Wed, 07 Oct 2020 22:43:44 +0100
-
-ubuntu-meta (1.458) groovy; urgency=medium
-
-  * Refreshed dependencies
-  * Added cloud-initramfs-growroot to desktop-raspi, server-raspi
-  * Added gdm3 to desktop [s390x], desktop-minimal [s390x]
-  * Added gnome-control-center to desktop [riscv64], desktop-minimal
-    [riscv64]
-  * Added ubuntu-raspi-settings to desktop-raspi
-  * Added wpasupplicant to desktop-raspi
-  * Removed cloud-guest-utils from desktop-raspi
-  * Removed gstreamer1.0-packagekit from desktop [riscv64 s390x],
-    desktop-minimal [riscv64 s390x]
-
- -- Iain Lane <iain.lane@canonical.com>  Wed, 07 Oct 2020 13:49:09 +0100
-
-ubuntu-meta (1.457) groovy; urgency=medium
-
-  * Refreshed dependencies
-  * Added cloud-guest-utils to server-raspi
-  * Added libglib2.0-bin to desktop-minimal-recommends, desktop-
-    recommends
-  * Added wpasupplicant to desktop-raspi
-  * Removed gvfs-bin from desktop, desktop-minimal
-
- -- Iain Lane <iain.lane@canonical.com>  Tue, 15 Sep 2020 10:45:22 +0100
-
-ubuntu-meta (1.456) groovy; urgency=medium
-
-  [ Martin Wimpress ]
-  * Add desktop-raspi and server-raspi to metapackage-map
-  * Add Package: ubuntu-desktop-raspi and ubuntu-server-raspi
-
-  [ Dimitri John Ledkov ]
-  * Add raspi to seeds in update.cfg
-  * Drop provides on raspi, fix whitespace.
-  * Refreshed dependencies
-  * Added sssd-tools to desktop-minimal-recommends, desktop-recommends
-
- -- Dimitri John Ledkov <xnox@ubuntu.com>  Wed, 09 Sep 2020 13:04:51 +0100
-
-ubuntu-meta (1.455) groovy; urgency=medium
-
-  * Refreshed dependencies
-  * Added adcli to desktop-minimal-recommends, desktop-recommends
-  * Added realmd to desktop-minimal-recommends, desktop-recommends
-  * Added sssd to desktop-minimal-recommends, desktop-recommends
-
- -- Didier Roche <didrocks@ubuntu.com>  Thu, 27 Aug 2020 13:31:44 +0200
-
-ubuntu-meta (1.454) groovy; urgency=medium
-
-  * Refreshed dependencies
-  * Added motd-news-config to server
-  * d/control: removed manual motd-news-config dependency, it's
-    now correctly grabbed from the seeds
-
- -- Andreas Hasenack <andreas@canonical.com>  Sat, 15 Aug 2020 14:44:59 +0000
-
-ubuntu-meta (1.453) groovy; urgency=medium
-
-  * d/control: manually adding motd-news-config to ubuntu-server depends
-    so that base-files (with the new motd-news-config bin pkg) can
-    migrate. Seeds are changed already, so the next ubuntu-meta upload
-    shall be done with the results of the embedded update script.
-
- -- Andreas Hasenack <andreas@canonical.com>  Thu, 13 Aug 2020 18:11:09 -0300
-
-ubuntu-meta (1.452) groovy; urgency=medium
-
-  * update.cfg:
-    - Switch to groovy
-  * Refreshed dependencies
-  * Added gamemode to desktop-minimal-recommends [arm64 armhf ppc64el
-    riscv64 s390x], desktop-recommends [arm64 armhf ppc64el riscv64
-    s390x]
-  * Added snapd to desktop-minimal-recommends [riscv64], desktop-
-    recommends [riscv64], server-recommends [riscv64]
-  * Added strace to standard [riscv64]
-  * Removed popularity-contest from standard
-
- -- Michael Hudson-Doyle <michael.hudson@ubuntu.com>  Thu, 23 Jul 2020 15:05:10 +1200
-
-ubuntu-meta (1.451) groovy; urgency=medium
-
-  * Refreshed dependencies
   * Added apt-config-icons-hidpi to desktop-minimal-recommends, desktop-
     recommends (LP: #1864307)
-  * Added bind9-dnsutils to standard
-  * Removed dnsutils from standard
 
- -- Ken VanDine <ken.vandine@canonical.com>  Mon, 11 May 2020 09:31:32 -0400
+ -- Ken VanDine <ken.vandine@canonical.com>  Mon, 11 May 2020 10:37:00 -0400
 
 ubuntu-meta (1.450) focal; urgency=medium
 
@@ -302,7 +60,7 @@ ubuntu-meta (1.446) focal; urgency=medium
 ubuntu-meta (1.445) focal; urgency=medium
 
   * debian/control
-    - Added provides to ubuntu-desktop and ubuntu-desktop-minimal for
+    - Added provides to ubuntu-desktop and ubuntu-desktop-minimal for 
       packagekit-installer.  Seeding snap-store satisfies this.
 
  -- Ken VanDine <ken.vandine@canonical.com>  Fri, 13 Mar 2020 11:03:57 -0400
@@ -310,7 +68,7 @@ ubuntu-meta (1.445) focal; urgency=medium
 ubuntu-meta (1.444) focal; urgency=medium
 
   * Refreshed dependencies
-  * Added gnome-calculator, gnome-characters, gnome-logs to
+  * Added gnome-calculator, gnome-characters, gnome-logs to 
     desktop-minimal-recommends, desktop-recommends and removed the
     snap versions
   * Added plymouth-theme-spinner to desktop-minimal-recommends, desktop-
@@ -874,7 +632,7 @@ ubuntu-meta (1.421) cosmic; urgency=medium
   * Refreshed dependencies
   * Moved open-iscsi to server-recommends (LP: #1630946)
 
- -- Christian Ehrhardt <christian.ehrhardt@canonical.com>  Wed, 30 May 2018 07:01:29 +0000
+ -- root <root@c.lxd>  Wed, 30 May 2018 07:01:29 +0000
 
 ubuntu-meta (1.420) cosmic; urgency=medium
 
@@ -2722,7 +2480,7 @@ ubuntu-meta (1.237) oneiric; urgency=low
 
   * Refreshed dependencies
   * Removed screensaver-default-images from desktop
-  * (temporarily) Removed ubuntuone-client-gnome from desktop-recommends
+  * (temporarily) Removed ubuntuone-client-gnome from desktop-recommends 
     (it does not exist in the archive currently which breaks image builds)
   * Removed xscreensaver-data from desktop
   * Removed xscreensaver-gl from desktop
@@ -5708,7 +5466,7 @@ ubuntu-meta (1.48) gutsy; urgency=low
 ubuntu-meta (1.47ubuntu2) gutsy; urgency=low
 
   * Revert the ubuntu-minimal changes introduced by my last
-    upload
+    upload 
 
  -- Michael Vogt <michael.vogt@ubuntu.com>  Mon, 25 Jun 2007 17:33:03 +0200
 

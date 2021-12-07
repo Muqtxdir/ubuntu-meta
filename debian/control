@@ -2,9 +2,8 @@ Source: ubuntu-meta
 Section: metapackages
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Standards-Version: 4.5.1
-Build-Depends: debhelper-compat (= 13), germinate (>= 1.18)
-Rules-Requires-Root: no
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 11), germinate (>= 1.18)
 
 Package: ubuntu-minimal
 Architecture: any
@@ -46,17 +45,6 @@ Description: The Ubuntu desktop minimal system
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
 
-Package: ubuntu-desktop-raspi
-Architecture: arm64 armhf
-Depends: ${misc:Depends}, ${germinate:Depends}
-Recommends: ${germinate:Recommends}
-Description: The Ubuntu desktop system for Raspberry Pi
- This package depends on all of the packages in the Ubuntu desktop system
- for Raspberry Pi.
- .
- It is also used to help ensure proper upgrades, so it is recommended that
- it not be removed.
-
 Package: ubuntu-desktop
 Architecture: amd64 arm64 armhf ppc64el
 Depends: ${misc:Depends}, ${germinate:Depends}
@@ -70,32 +58,10 @@ Description: The Ubuntu desktop system
 
 Package: ubuntu-server
 Architecture: any
-Depends: ${misc:Depends}, ${germinate:Depends}
+Depends: ${misc:Depends}, ${germinate:Depends}, motd-news-config
 Recommends: ${germinate:Recommends}
 Description: The Ubuntu Server system
  This package depends on all of the packages in the Ubuntu Server system
- .
- It is also used to help ensure proper upgrades, so it is recommended that
- it not be removed.
-
-Package: ubuntu-server-minimal
-Architecture: any
-Depends: ${misc:Depends}, ${germinate:Depends}
-Recommends: ${germinate:Recommends}
-Description: The Ubuntu Server minimal system
- This package depends on all of the packages in the Ubuntu Server minimal
- system
- .
- It is also used to help ensure proper upgrades, so it is recommended that
- it not be removed.
-
-Package: ubuntu-server-raspi
-Architecture: arm64 armhf
-Depends: ${misc:Depends}, ${germinate:Depends}
-Recommends: ${germinate:Recommends}
-Description: The Ubuntu Server system for Raspberry Pi
- This package depends on all of the packages in the Ubuntu Server system
- for Raspberry Pi.
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.

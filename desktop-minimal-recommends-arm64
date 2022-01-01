@@ -15,6 +15,7 @@ dirmngr
 eog
 evince
 file-roller
+firefox
 fonts-indic
 fonts-kacst-one
 fonts-khmeros-core
@@ -33,7 +34,6 @@ fonts-ubuntu
 fonts-opendyslexic
 fwupd
 fwupd-signed
-gamemode
 gedit
 gir1.2-gmenu-3.0
 gnome-accessibility-themes
@@ -42,6 +42,7 @@ gnome-calculator
 gnome-characters
 gnome-disk-utility
 gnome-font-viewer
+gnome-getting-started-docs
 gnome-initial-setup
 gnome-keyring
 gnome-logs
@@ -60,11 +61,8 @@ ibus-table
 im-config
 kerneloops
 laptop-detect
-libglib2.0-bin
 libnss-mdns
-libpam-fprintd
 libpam-gnome-keyring
-libpam-sss
 libproxy1-plugin-gsettings
 libproxy1-plugin-networkmanager
 libwmf0.2-7-gtk
@@ -101,6 +99,7 @@ whoopsie
 xcursor-themes
 xdg-desktop-portal-gtk
 xdg-utils
+xul-ext-ubufox
 yaru-theme-gnome-shell
 yaru-theme-gtk
 yaru-theme-icon

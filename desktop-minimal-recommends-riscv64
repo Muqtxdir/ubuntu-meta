@@ -32,7 +32,6 @@ fonts-tibetan-machine
 fonts-ubuntu
 fonts-opendyslexic
 fwupd
-gamemode
 gedit
 gir1.2-gmenu-3.0
 gnome-accessibility-themes
@@ -41,7 +40,7 @@ gnome-calculator
 gnome-characters
 gnome-disk-utility
 gnome-font-viewer
-gnome-initial-setup
+gnome-getting-started-docs
 gnome-keyring
 gnome-logs
 gnome-power-manager
@@ -59,11 +58,8 @@ ibus-table
 im-config
 kerneloops
 laptop-detect
-libglib2.0-bin
 libnss-mdns
-libpam-fprintd
 libpam-gnome-keyring
-libpam-sss
 libproxy1-plugin-gsettings
 libproxy1-plugin-networkmanager
 libwmf0.2-7-gtk
@@ -90,16 +86,15 @@ printer-driver-sag-gdi
 printer-driver-splix
 pulseaudio-module-bluetooth
 seahorse
-snapd
 speech-dispatcher
 system-config-printer
 ubuntu-docs
-ubuntu-report
 ubuntu-wallpapers
 whoopsie
 xcursor-themes
 xdg-desktop-portal-gtk
 xdg-utils
+xul-ext-ubufox
 yaru-theme-gnome-shell
 yaru-theme-gtk
 yaru-theme-icon

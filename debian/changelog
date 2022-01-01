@@ -1,8 +1,8 @@
-ubuntu-meta (1.450.3ubuntu1) focal; urgency=medium
+ubuntu-meta (1.450.3ubuntu2) focal; urgency=medium
 
-  * add what-f packages to the list
+  * added fonts-opendyslexic and gnome-shell-extension-just-perfection
 
- -- Muqtadir <muqtadir5555@gmail.com>  Tue, 07 Dec 2021 15:36:13 +0530
+ -- Muqtadir <muqtadir5555@gmail.com>  Sun, 02 Jan 2022 01:52:31 +0530
 
 ubuntu-meta (1.450.2) focal; urgency=medium
 
